@@ -8,8 +8,6 @@
     <style>
       #top {
         border: 3px solid red;
-        min-height: 80px;
-        min-width: 1000px;
       }
 
       #rubrik {
@@ -36,42 +34,39 @@
         font-size: 20px;
       }
 
-      #mellan {
+      #middle {
         border: 3px solid orange;
-        min-height: 80px;
-        min-width: 1000px;
       }
 
       #rubrik_v {
         background-color: yellow;
         border: 3px solid black;
-        text-align: center;
-        padding-left: 60px;
-        padding-right: 60px;
+        align-content: center;
+        padding: 25px;
       }
 
       #rubrik_h {
         background-color: pink;
         border: 3px solid black;
-        text-align: center;
-        padding-left: 60px;
-        padding-right: 60px;
+        align-content: center;
+        padding: 25px;
       }
 
-      .flex-container-mellan {
+      .flex-container-middle {
         display: flex;
         align-items: center;
+        justify-content: space-around;
         flex-direction: row;
       }
 
-      .flex-container-mellan > div {
-        min-height: 49%;
+      .flex-container-middle > div {
+        margin: 12px;
+        min-width: 49%;
+        text-align: center;
       }
 
-      #botten {
+      #bottom {
         border: 3px solid yellow;
-        min-height: 80px;
-        min-width: 1000px;
       }
     </style>
   </head>
@@ -79,18 +74,25 @@
   <body>
     <div id="top">
       <div class="flex-container">
-        <div id="link"><a href="https://classroom.google.com/">Produkterna</a></div>
+        <div id="link">
+          <a href="https://classroom.google.com/">Produkterna</a>
+        </div>
         <div id="link"><a href="https://classroom.google.com/">Länk 2</a></div>
         <div id="link"><a href="https://classroom.google.com/">Länk 3</a></div>
 
         <div><h1 id="rubrik">Rubrik 1</h1></div>
       </div>
     </div>
-    <div id="mellan">
-      <div class="flex-container-mellan">
+    <div id="middle">
+      <div class="flex-container-middle">
         <div><h1 id="rubrik_v">Vänster Rubrik</h1></div>
         <div><h1 id="rubrik_h">Höger Rubrik</h1></div>
       </div>
+    </div>
+    <div id="bottom">
+      <div class="bottom"></div>
+      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet vel recusandae molestias optio quasi fugiat nam totam vero magni est ipsa voluptas magnam architecto odio quos distinctio dolorum, libero excepturi aspernatur at? Maxime nam impedit totam, iste ratione molestias ut voluptatibus commodi sed, eaque quam nesciunt quo! Natus vel fugiat sapiente tenetur est minus ullam nobis animi officiis sit ducimus, dolores quod et? Esse unde temporibus assumenda ullam, provident impedit sed facere perferendis debitis doloremque, eveniet officia, fugiat rem nihil reprehenderit sint ab laborum quia repellat eius doloribus amet explicabo. Est unde velit sunt sit, delectus libero. Ex, perspiciatis rem molestias atque debitis ducimus eum, nostrum error, unde eligendi minima fuga amet temporibus reprehenderit accusamus dicta? Molestiae et iste rem? Magnam excepturi assumenda quos beatae! Quaerat, eveniet. Enim commodi temporibus nisi eos est quisquam, assumenda ab, amet deleniti a vitae omnis corrupti labore sunt aliquid sed obcaecati nobis aspernatur necessitatibus! Sapiente, eligendi officiis adipisci quod labore accusantium veniam nam aperiam esse reiciendis sit velit eum, similique in sint nulla vitae architecto minus deserunt sequi ut autem molestias. Repellat impedit vel totam exercitationem nulla necessitatibus temporibus a facere voluptatibus praesentium est laboriosam tenetur, odit ea molestias, recusandae molestiae modi numquam nostrum maiores cum voluptas. Quidem ratione nulla commodi veritatis molestiae dolores id asperiores provident labore, aut, ipsam velit a quasi dolorum fuga? Ea omnis consectetur architecto suscipit fugit aperiam. Sit suscipit doloribus autem corrupti corporis, voluptates ducimus recusandae amet reiciendis possimus.
+      </p>
     </div>
   </body>
 </html>
