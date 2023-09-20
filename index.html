@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lek_3b_Uppgift_1</title>
+
+    <style>
+      #top {
+        border: 3px solid red;
+        min-height: 80px;
+        min-width: 1000px;
+      }
+
+      #rubrik {
+        background-color: aqua;
+        border: 3px solid black;
+        text-align: center;
+        padding-left: 60px;
+        padding-right: 60px;
+      }
+
+      .flex-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+      }
+
+      .flex-container > div {
+        margin: 10px;
+      }
+
+      #link {
+        font-family: monospace;
+        font-size: 20px;
+      }
+
+      #mellan {
+        border: 3px solid orange;
+        min-height: 80px;
+        min-width: 1000px;
+      }
+
+      #rubrik_v {
+        background-color: yellow;
+        border: 3px solid black;
+        text-align: center;
+        padding-left: 60px;
+        padding-right: 60px;
+      }
+
+      #rubrik_h {
+        background-color: pink;
+        border: 3px solid black;
+        text-align: center;
+        padding-left: 60px;
+        padding-right: 60px;
+      }
+
+      .flex-container-mellan {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+      }
+
+      .flex-container-mellan > div {
+        min-height: 49%;
+      }
+
+      #botten {
+        border: 3px solid yellow;
+        min-height: 80px;
+        min-width: 1000px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="top">
+      <div class="flex-container">
+        <div id="link"><a href="https://classroom.google.com/">Produkterna</a></div>
+        <div id="link"><a href="https://classroom.google.com/">Länk 2</a></div>
+        <div id="link"><a href="https://classroom.google.com/">Länk 3</a></div>
+
+        <div><h1 id="rubrik">Rubrik 1</h1></div>
+      </div>
+    </div>
+    <div id="mellan">
+      <div class="flex-container-mellan">
+        <div><h1 id="rubrik_v">Vänster Rubrik</h1></div>
+        <div><h1 id="rubrik_h">Höger Rubrik</h1></div>
+      </div>
+    </div>
+  </body>
+</html>
